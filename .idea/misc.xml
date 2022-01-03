@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/sudhir Sharma/AndroidStudioProjects/Weather-Update/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/sudhir Sharma/AndroidStudioProjects/Weather-Update/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/sudhir Sharma/AndroidStudioProjects/Weather-Update/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/sudhir Sharma/AndroidStudioProjects/Weather-Update/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/sudhir Sharma/AndroidStudioProjects/Weather-Update/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
         <entry key="..\:/YouTube/Weather Update/Latest code/WeatherUpdate/app/src/main/res/layout/activity_main.xml" value="0.28229166666666666" />
       </map>
     </option>

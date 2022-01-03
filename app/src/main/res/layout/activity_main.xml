@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity"
-    android:background="#e8f4f8"
+    android:background="@drawable/background"
     android:orientation="vertical"
     android:padding="16dp">
     <TextView
@@ -58,17 +58,41 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/tvResult" />
         </ScrollView>
+
+
         <View
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1">
-        </View>
-        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/adViewMain"
+            android:layout_weight="1"></View>
+
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            ads:adSize="SMART_BANNER"
-            ads:adUnitId="@string/banner_adunit_id">
-        </com.google.android.gms.ads.AdView>
+            android:text="Contact:sudhirsharma@iitbhilai.ac.in" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="52dp"
+            android:layout_height="91dp"
+            app:srcCompat="@drawable/logo" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="56dp"
+            android:layout_height="77dp"
+            app:srcCompat="@drawable/sudhir" />
+
+
     </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="@string/banner_adunit_id">
+
+    </com.google.android.gms.ads.AdView>
 </LinearLayout>

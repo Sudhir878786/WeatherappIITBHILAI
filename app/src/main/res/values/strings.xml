@@ -3,4 +3,7 @@
     <!-- This is test ad unit ID for Banner ads. Replace this with your Banner ad unit ID.
     Source: https://developers.google.com/admob/android/banner -->
     <string name="banner_adunit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string
+        name="messageWithLink"><a href="https://www.google.com/">Tap here to open Link</a></string>
 </resources>

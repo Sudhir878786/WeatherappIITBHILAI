@@ -1,9 +1,14 @@
-package com.sandipbhattacharya.weatherupdate;
+package com.sudhirsharmaIITBHILAI.weatherupdate;
 
+
+
+import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -54,6 +59,11 @@ public class MainActivity extends AppCompatActivity {
         etCountry = findViewById(R.id.etCountry);
         tvResult = findViewById(R.id.tvResult);
     }
+
+
+
+
+
 
     public void getWeatherDetails(View view) {
         String tempUrl = "";
